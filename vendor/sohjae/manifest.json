@@ -1,0 +1,21 @@
+{
+  "repository": "https://github.com/mson0129/sohjae",
+  "revision": "6f870f8b6dcd58200961743e782c6dc0aebdbfb7",
+  "license": "MIT",
+  "files": {
+    "editor.js": "2e3a1a7f0aa839020d66c72bc65a08079d03ab4eeccec76a4e90c5fa3a7346c5",
+    "editor.css": "46101cf1e59465a0a9578dc62ec9765776bda51364d7e7a35f41b27394f69a74",
+    "core.js": "207074c8cab356fe4f427478af73b3c8fe8f978a36dc82ac90b2704ff6977e7e",
+    "clipboard.js": "fef7ddc1a633d18420577da048b7f2c682378588ce70e58186e984bac548fb0f",
+    "html.js": "a6f30de48d158ecd00fc2b1cb76cc5de0f1c4ffa1fe65f1ab6172618c03b8efc",
+    "rich-dom.js": "cec98cfd452e8b6efad44838bf8f3deadd90c0f119e89030f50fd948d9dac776",
+    "source-map.js": "5a3e223657760edbb202c2a524688261ed84907dd0f504d7fd54492b1449dc6d",
+    "renderer.js": "d98161ac85fcfdc832f02766bca692428053cdcc605c65b7d73136f06f0d57b9",
+    "renderer.css": "f9c3dad1ebf78d1f4fa1303d695f5ceeaf3d4f8afa29ea801fced87bbe23e284",
+    "collab/core.js": "f1ae93b8210f32d527ed041cbc1e9ee5a612734a6efb725a7cb443263714a9b8",
+    "collab/editor_core.js": "a39ab4d92b227f0975dfa3dc6dbda06bc51343d422b43e9bda2570ac4e2bb6c7",
+    "sohjae_editor.wasm": "383e12053efc87b32a41e1dd79c2b874139070d1b873a2c1386ad829ca0e7f62",
+    "sohjae_collaborator.wasm": "c1fef9bcf0aeb45390d28f40dd701d3220f42f6620a866c034bbe5ac38636d71",
+    "sohjae_render.wasm": "2f2db1517baacb0525d513f6363b47624fa514d48d6e82e707e2dae0c3b9863e"
+  }
+}

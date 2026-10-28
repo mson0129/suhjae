@@ -1,0 +1,17 @@
+/* Optional standalone viewer styles. Scope to .sohjae_viewer; no editor UI CSS. */
+.sohjae_viewer { color:var(--text_color,#242833); font:16px/1.8 system-ui,sans-serif; overflow-wrap:anywhere; }
+.sohjae_viewer pre { overflow:auto; padding:1rem; background:#f4f6f8; white-space:pre; }
+.sohjae_viewer code { font-family:ui-monospace,monospace; }
+.sohjae_viewer table { border-collapse:collapse; display:block; overflow:auto; }
+.sohjae_viewer th,.sohjae_viewer td { border:1px solid #dbe0e8; padding:.4rem .7rem; }
+.sohjae_viewer blockquote { border-left:3px solid #ccd3dd; margin-left:0; padding-left:1rem; }
+.sohjae_viewer img { max-width:100%; height:auto; }
+.sohjae_viewer mark { background:#fff0a6; }
+.sohjae_viewer .front_matter { white-space:pre-wrap; }
+/* Keep raw-coordinate wrappers and loose first paragraphs on the checkbox line. */
+.sohjae_viewer li.list_item > input[data-task] + section { display:inline; }
+.sohjae_viewer li.list_item > input[data-task] + section > p:first-child,
+.sohjae_viewer li.list_item > input[data-task] + p { display:inline; }
+
+/* Standalone renderer emits semantic task markup without coordinate wrappers. */
+.sohjae_viewer li.list_item > input[type="checkbox"] + p { display:inline; }
